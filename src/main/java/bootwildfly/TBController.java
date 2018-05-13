@@ -11,4 +11,9 @@ public class TBController {
     public String sayHello(){
         return ("Hello, SpringBoot on Wildfly");
     }
+
+    @RequestMapping("test")
+    public String sayTest() {
+        return ("Test message");
+    }
 }
