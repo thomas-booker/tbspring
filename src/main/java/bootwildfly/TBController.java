@@ -16,4 +16,9 @@ public class TBController {
     public String sayTest() {
         return ("Test message");
     }
+
+    @RequestMapping("testpage")
+    public String getPage() {
+        return ("testpage.html");
+    }
 }
