@@ -19,6 +19,6 @@ public class TBController {
 
     @RequestMapping("testpage")
     public String getPage() {
-        return ("testpage.html");
+        return (testpage.html);
     }
 }
